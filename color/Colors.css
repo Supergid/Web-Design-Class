@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	font-size: 2rem;
+	color: #fff;
+	background-color: #000000;
+	display: inline-block;
+	width: 200px;
+	padding: 10px;
+}
