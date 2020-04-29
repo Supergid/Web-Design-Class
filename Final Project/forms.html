@@ -1,39 +1,38 @@
 <!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="Final.css">
-	<link rel="stylesheet" type="text/css" href="forms.css">
+<link rel="stylesheet" type="text/css" href="Final.css">
+<link rel="stylesheet" type="text/css" href="forms.css">
 <meta charset="utf-8">
 <title>Forms</title>
-	<script>
+<script>
 	function wizbang(){
 		var name = document.getElementById("name").value;
 		var email = document.getElementById("email").value;
 		alert("Glad to meet you: " + name);
-		confirm("can i email you at:" + email);
+		confirm("can i email you at: " + email);
 	}
 	</script>
 </head>
 
 <body>
-	<img src="Have a great summer.webp" alt="Have a Great Summer">
-	
+<img src="Have a great summer.webp" alt="Have a Great Summer">
 <form action="#" onSubmit="javascript:wizbang()">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="email"><br><br>
+  <label for="name">Name:</label>
+  <br>
+  <input type="text" id="name" name="name">
+  <br>
+  <label for="email">Email:</label>
+  <br>
+  <input type="text" id="email" name="email">
+  <br>
+  <br>
   <input type="submit" value="Submit">
 </form>
-	
-	<div>
-	<a href="../Final-Project/Credit.html">Credit Page</a>
-		</div>
-	
-	<div>
-	<a href="../Final-Project/Main.html">Main Page</a>
-	   </div>
-	
-	
+<div> <a href="../Final-Project/Credit.html">Credit Page</a> </div>
+<div> <a href="../Final-Project/Main.html">Main Page</a> </div>
+<div>
+  <p>For more information on forms head to <a href="https://www.w3schools.com/html/html_forms.asp">W3Schools Forms</a></p>
+</div>
 </body>
 </html>
