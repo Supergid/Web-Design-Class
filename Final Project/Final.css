@@ -19,7 +19,12 @@ table{
 }
 body {
   background-color: cadetblue;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
+div{
+	margin-bottom: 1em;
+}
 
 	
